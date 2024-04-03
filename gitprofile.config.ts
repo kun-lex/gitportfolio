@@ -41,12 +41,20 @@ const CONFIG = {
           link: 'https://areaguide-app.vercel.app/',
         },
         {
-          title: 'Project Name',
+          title: 'The Platform Universal',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Empowering young minds to transform their ideas into tangible solutions that address real-world challenges.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://theplatformuniversal.com/wp-content/uploads/2023/11/PU-Blue-Logo-300x76.png',
+          link: 'https://theplatformuniversal.com/',
+        },
+        {
+          title: 'Cryptoverse Legal Consultancy',
+          description:
+            'Welcome to CRYPTOVERSE Legal, the leading legal advisory firm for Blockchain, Web3, and Crypto start-ups in the UAE (Dubai).',
+          imageUrl:
+            'https://www.cryptoverselawyers.io/wp-content/uploads/2023/03/Cryptoverse-Logo-White.webp',
+          link: 'https://www.cryptoverselawyers.io/',
         },
       ],
     },
@@ -59,7 +67,7 @@ const CONFIG = {
   social: {
     linkedin: 'David Akinola',
     twitter: 'devdavidak',
-    mastodon: 'arifszn@mastodon.social',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: 'tubosun_david',
@@ -67,7 +75,7 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'dev.david',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
@@ -77,7 +85,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://firebasestorage.googleapis.com/v0/b/elp-app-f1caa.appspot.com/o/OLATUNBOSUN%20DAVID%20AKINOLA%20CV.docx%20(1).pdf?alt=media&token=123dc716-dd7b-4b8f-9182-ecb434f60185', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -136,29 +144,11 @@ const CONFIG = {
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    username: 'Dev.David', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
