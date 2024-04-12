@@ -56,6 +56,14 @@ const CONFIG = {
             'https://www.cryptoverselawyers.io/wp-content/uploads/2023/03/Cryptoverse-Logo-White.webp',
           link: 'https://www.cryptoverselawyers.io/',
         },
+        {
+          title: 'Netflix Clone',
+          description:
+            'A Netflix clone.',
+          imageUrl:
+            'https://netflix-clone-swart-three.vercel.app/assets/netflix-logo.png',
+          link: 'https://netflix-clone-swart-three.vercel.app/',
+        },
       ],
     },
   },
